@@ -1,0 +1,25 @@
+{
+  "name": "pegastonks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m1dugh/Pegastonks.git"
+  },
+  "author": "m1dugh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/m1dugh/Pegastonks/issues"
+  },
+  "homepage": "https://github.com/m1dugh/Pegastonks#readme",
+  "dependencies": {
+    "shittyscrapper": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
+}
