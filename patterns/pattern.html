@@ -1,0 +1,33 @@
+<table class="dsp_data_table">
+    <tbody datatype="block" key="sections[]">
+    <tr class="dsp_data_tr">
+        <td title="Libell${/./} du produit" class="dsp_data_td_data">
+            <div>${/S\d/}${Name}</div>
+        </td>
+        <td class="dsp_data_td_data" title="Moyenne ${//}" datatype="optional">
+            <div>${Mark}</div>
+        </td>
+    </tr>
+    <tr class="dsp_data_tr">
+        <td class="dsp_data_td_fils">
+            <div class="dsp_data_div">
+                <table class="dsp_data_table">
+                    <tbody>
+                    <tr class="dsp_data_tr" datatype="block" key="Marks[]">
+                        <td title="Type de note">
+                            <div>${Type}</div>
+                        </td>
+                        <td title="Note ${//}">
+                            <div>${/^\d{1,2}\.\d{2}/}${Note}</div>
+                        </td>
+                        <td title="Date">
+                            <div>${Date}</div>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </td>
+    </tr>
+    </tbody>
+</table>

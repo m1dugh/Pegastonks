@@ -16,10 +16,11 @@
     "url": "https://github.com/m1dugh/Pegastonks/issues"
   },
   "homepage": "https://github.com/m1dugh/Pegastonks#readme",
-  "dependencies": {
-    "shittyscrapper": "^1.0.0"
-  },
   "devDependencies": {
+    "@types/node": "^17.0.12",
     "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "shittyscrapper": "^1.1.0"
   }
 }
